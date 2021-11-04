@@ -1,11 +1,11 @@
 # inventory_management
 
-## Project setup
+## Project setup (to get the folder node_modules)
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and hot-reloads for development (defaults to localhost:8080)
 ```
 npm run serve
 ```
@@ -13,11 +13,6 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
 ```
 
 ### Customize configuration
