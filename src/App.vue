@@ -1,16 +1,19 @@
 <template>
-  <DataTable/>
+  <div id="app">
+    <DataTable/>
+  </div>
 </template>
 
-<script>
-import DataTable from './components/DataTable.vue'
+<script lang="ts">
+import Vue from 'vue';
+import DataTable from './components/DataTable.vue';
 
-export default {
+export default Vue.extend({
   name: 'App',
   components: {
     DataTable
   }
-}
+});
 </script>
 
 <style>
@@ -18,8 +21,5 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
