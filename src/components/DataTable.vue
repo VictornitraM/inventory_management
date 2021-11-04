@@ -18,7 +18,7 @@
             @click="clear()"
             v-b-modal.addModal
             variant="outline-success"
-            >Add</b-button
+            >Add +</b-button
           ></b-col
         >
       </b-row>
